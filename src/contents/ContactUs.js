@@ -2,9 +2,13 @@ import React, { Component } from 'react';
 class Contact extends Component{
     render(){
         return(
-            <div className="TBD">
-                <p> A form will be here soon</p>
-            </div>
+            <form name="contact" method="POST" data-netlify="true">
+            <label>
+            Name:
+            <input type="text" name="name" />
+            </label>
+            <input type="submit" value="Submit" />
+        </form>
         )
     }
 }
