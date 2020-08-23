@@ -29,7 +29,7 @@ class Contact extends Component{
             ...this.state
           })
         })
-          useHistory().push("/home");
+          useHistory().push("/");
        
           alert('A name was submitted: ' + this.state.value);
         event.preventDefault();
