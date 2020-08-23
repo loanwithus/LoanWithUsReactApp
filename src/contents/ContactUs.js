@@ -42,7 +42,7 @@ class Contact extends Component{
             <form
               name="contact"
               method="post"
-              action="/home/"
+              action="/"
               data-netlify="true"
               data-netlify-honeypot="bot-field"
               onSubmit={this.handleSubmit}
