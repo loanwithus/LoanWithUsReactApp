@@ -10,7 +10,7 @@ class Contactbar extends Component {
         <div className="level-left">
         <a href="tel:+91 999999999‬" target="_blank" rel="noopener noreferrer">+91 999999999‬</a></div>
         <div className="level-right">
-        <a href="mailto:info@horizonfargo.com" target="_blank" rel="noopener noreferrer">xyz@email.com‬</a></div>
+        <a href="mailto:xyz@email.com" target="_blank" rel="noopener noreferrer">xyz@email.com‬</a></div>
         </Navbar>
 
         )
