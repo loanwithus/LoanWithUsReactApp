@@ -10,10 +10,12 @@ import Contactbar from './components/Contactbar'
 import Home from './contents/Home';
 import About from './contents/About';
 import Contact from './contents/ContactUs'
+import Services from './contents/Services'
 function App() {
 return (
 <Router>
 <div className="App">
+<h1>hh</h1>
 <Contactbar/>
 <Navbar />
 <Route exact path="/">
@@ -26,6 +28,10 @@ return (
 
 <Route path="/contact">
 <Contact Us/>
+</Route>
+
+<Route path="/service">
+<Services/>
 </Route>
 </div>
 </Router>
