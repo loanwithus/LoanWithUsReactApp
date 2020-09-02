@@ -34,28 +34,28 @@ class Contact extends Component{
       render() {
         const { name, email, message } = this.state;
         return (
-          
+              <div>
              <form onSubmit={this.handleSubmit}>
-          <p>
-            <label>
-              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <label>
-              Message: <textarea name="message" value={message} onChange={this.handleChange} />
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
+              <div className="form-group">
+              <label for="formGroupExampleInput">Your Name:</label>
+              <input type="text" name="name" value={name} onChange={this.handleChange} class="form-control" id="formGroupExampleInput" placeholder="Name"></input>
+              </div>
+  
         
+            
+            <div className="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" name="email" value={email} onChange={this.handleChange} class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email"></input>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+
+     <div class="form-group">
+        <label for="exampleFormControlTextarea1">Message</label>
+       <textarea className="form-control" name="message" value={message} onChange={this.handleChange}  id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          </div>
         )
     }
 }
