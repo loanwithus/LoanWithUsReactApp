@@ -18,7 +18,7 @@ return (
  
 <nav className="navbar navbar-expand-lg navbar-light bg-light">
 <div className="container-fluid"></div>
-<NavLink className="navbar-brand" to="/contact" >LoanWithUs</NavLink>
+<NavLink className="navbar-brand" to="/contact" style={{textAlign:'left'}}>LoanWithUs</NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>

@@ -15,7 +15,7 @@ function App() {
 return (
 <Router>
 <div className="App">
-<h1>hh</h1>
+
 <Contactbar/>
 <Navbar />
 <Route exact path="/">
